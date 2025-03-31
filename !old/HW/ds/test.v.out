@@ -1,0 +1,44 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_0000027b6f2d9e40 .scope module, "example_vector" "example_vector" 2 1;
+ .timescale 0 0;
+L_0000027b6f324e90 .functor OR 1, L_0000027b6f368c80, L_0000027b6f367ce0, C4<0>, C4<0>;
+L_0000027b6f369890 .functor BUFT 1, C4<11>, C4<0>, C4<0>, C4<0>;
+L_0000027b6f2d9fd0 .functor NOT 2, L_0000027b6f369890, C4<00>, C4<00>, C4<00>;
+v0000027b6f2d9210_0 .net *"_ivl_10", 0 0, L_0000027b6f367ce0;  1 drivers
+v0000027b6f2d9670_0 .net *"_ivl_13", 0 0, L_0000027b6f324e90;  1 drivers
+L_0000027b6f369968 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v0000027b6f2d9710_0 .net *"_ivl_17", 0 0, L_0000027b6f369968;  1 drivers
+L_0000027b6f3698d8 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0000027b6f2d9030_0 .net/2u *"_ivl_4", 1 0, L_0000027b6f3698d8;  1 drivers
+v0000027b6f2d90d0_0 .net *"_ivl_6", 0 0, L_0000027b6f368c80;  1 drivers
+L_0000027b6f369920 .functor BUFT 1, C4<00>, C4<0>, C4<0>, C4<0>;
+v0000027b6f2d9170_0 .net/2u *"_ivl_8", 1 0, L_0000027b6f369920;  1 drivers
+v0000027b6f367b00_0 .net "d", 1 0, L_0000027b6f2d9fd0;  1 drivers
+L_0000027b6f369848 .functor BUFT 1, C4<10>, C4<0>, C4<0>, C4<0>;
+v0000027b6f3685a0_0 .net "x", 1 0, L_0000027b6f369848;  1 drivers
+v0000027b6f367d80_0 .net "y", 1 0, L_0000027b6f369890;  1 drivers
+v0000027b6f3680a0_0 .net "z", 1 0, L_0000027b6f368aa0;  1 drivers
+L_0000027b6f368c80 .cmp/ne 2, L_0000027b6f369848, L_0000027b6f3698d8;
+L_0000027b6f367ce0 .cmp/ne 2, L_0000027b6f369890, L_0000027b6f369920;
+L_0000027b6f368aa0 .concat [ 1 1 0 0], L_0000027b6f324e90, L_0000027b6f369968;
+    .scope S_0000027b6f2d9e40;
+T_0 ;
+    %vpi_call 2 14 "$display", " z: ", v0000027b6f3680a0_0 {0 0 0};
+    %vpi_call 2 15 "$display", " d: ", v0000027b6f367b00_0 {0 0 0};
+    %vpi_call 2 16 "$display", " x: ", v0000027b6f3685a0_0 {0 0 0};
+    %vpi_call 2 17 "$display", " y: ", v0000027b6f367d80_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "test.v";

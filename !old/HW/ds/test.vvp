@@ -1,0 +1,32 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1110-g18392a46)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000002703ddf9e40 .scope module, "test" "test" 2 1;
+ .timescale 0 0;
+L_000002703de87838 .functor BUFT 1, C4<10>, C4<0>, C4<0>, C4<0>;
+L_000002703de87880 .functor BUFT 1, C4<11>, C4<0>, C4<0>, C4<0>;
+L_000002703ddfa1c0 .functor OR 2, L_000002703de87838, L_000002703de87880, C4<00>, C4<00>;
+L_000002703ddf70a0 .functor NOT 2, L_000002703de87880, C4<00>, C4<00>, C4<00>;
+v000002703ddf9fd0_0 .net "d", 1 0, L_000002703ddf70a0;  1 drivers
+v000002703ddf6d40_0 .net "x", 1 0, L_000002703de87838;  1 drivers
+v000002703ddfa120_0 .net "y", 1 0, L_000002703de87880;  1 drivers
+v000002703ddfe410_0 .net "z", 1 0, L_000002703ddfa1c0;  1 drivers
+    .scope S_000002703ddf9e40;
+T_0 ;
+    %vpi_call 2 14 "$display", " z: ", v000002703ddfe410_0 {0 0 0};
+    %vpi_call 2 15 "$display", " d: ", v000002703ddf9fd0_0 {0 0 0};
+    %vpi_call 2 16 "$display", " x: ", v000002703ddf6d40_0 {0 0 0};
+    %vpi_call 2 17 "$display", " y: ", v000002703ddfa120_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    ".\test.v";
