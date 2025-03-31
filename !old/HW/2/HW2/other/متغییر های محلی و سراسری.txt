@@ -1,0 +1,2 @@
+https://python.coderz.ir/lessons/l12.html
+https://blog.faradars.org/scope-of-variables-in-python/
