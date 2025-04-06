@@ -177,6 +177,13 @@ empty_list = []           # Using square brackets
 set_to_list = list({3, 1, 2})  # Convert set to list
 none_list = [None] * 10   # Create list with 10 None values
 consecutive = list(range(10))  # List of numbers 0-9
+
+list("hello")            # ['h', 'e', 'l', 'l', 'o']
+list((1, 2, 3))           # [1, 2, 3]
+list({4, 5, 6})           # [4, 5, 6]
+list({'a': 1, 'b': 2})    # ['a', 'b'] → keys of dict
+list(range(5))            # [0, 1, 2, 3, 4]
+
 ```
 
 #### List Operations
