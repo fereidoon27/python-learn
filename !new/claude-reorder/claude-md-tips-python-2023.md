@@ -147,10 +147,10 @@ Reverse a string: `s[::-1]`
 #### 1. `.format()` Method
 
 ```python
-name = "Hamidreza"
-age = 22
+name_1 = "Hamidreza"
+age_1 = 22
 template = 'In ten years, {name} will be {age} years old.'
-new_rec = template.format(name=name, age=age+10)
+new_rec = template.format(name=name_1, age=age_1+10)
 # "In ten years, Hamidreza will be 32 years old."
 ```
 
