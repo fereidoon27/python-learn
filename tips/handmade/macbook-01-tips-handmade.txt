@@ -1,0 +1,144 @@
+Force Quit Applications menu:
+cmd + opt + esc
+
+
+App Expose (View All Windows of a Single App): Ctrl + Down Arrow
+
+Switch Between Desktops (Spaces): Ctrl + Left/Right Arrow
+
+new Tabs : Cmd (⌘) + T
+
+opera:
+Switch to the Next Tab:
+Command (⌘) + Option (⌥) + Right Arrow
+
+Previously Active Tab:
+Control (⌃) + ` (Backtick)
+Control (⌃) + tab
+
+navigate into a selected folder in Finder : command (⌘) + Down Arrow (↓).
+
+
+
+
+
+# MacBook Text Navigation Shortcuts
+
+## Word Navigation
+- **Move to next word**: `Option + Right Arrow`
+- **Move to previous word**: `Option + Left Arrow`
+
+## Line Navigation
+- **Move to start of line**: `Command + Left Arrow`
+- **Move to end of line**: `Command + Right Arrow`
+
+## Delete
+- **Delete to start of line**: `Command + Delete`
+- **Delete previous word**: `Option + Delete`
+- **forward delete**: `fn` + Delete`
+
+## Text Selection
+- **Select next word**: `Shift + Option + Right Arrow`
+- **Select previous word**: `Shift + Option + Left Arrow`
+- **Select entire line**: `Command + Shift + Right/Left Arrow`
+
+## Document Navigation
+- **Move to top of document**: `Command + Up Arrow`
+- **Move to bottom of document**: `Command + Down Arrow`
+- **Page Up**: `Fn + Up Arrow`
+- **Page Down**: `Fn + Down Arrow`
+
+
+## Editing Shortcuts
+- **Undo**: `Command + Z`
+- **Redo**: `Command + Shift + Z`
+
+
+
+
+Chrome Tab Navigation (Mac)
+
+Next Tab	
+		`Ctrl + Tab` 		or 		`Cmd + Option + Right Arrow`
+
+​To switch to the previously active tab in Google Chrome on your MacBook Pro M1, you can use the following methods:​
+ 		`Cmd + Shift + A​`
+
+How it works:
+Pressing this combination opens a search interface displaying your recently used tabs.​
+The most recently used tab is highlighted by default.​
+Press Enter to switch to that tab.​
+
+
+
+
+VS Code
+Open tab picker / quick file switcher	
+		`Cmd + P`
+
+
+smart — it remembers the order of last opened tabs, not just position.		
+		`Ctrl + Tab`
+
+Code Editing
+
+Comment/Uncomment: Command + /
+Indent: Command + ]
+Outdent: Command + [
+Move line up/down: Option + Up/Down Arrow
+Duplicate line: Shift + Option + Down Arrow
+Delete line: Command + Shift + K
+
+Multiple Cursor
+
+Add cursor: Option + Click
+Add multiple cursors: Option + Command + Up/Down Arrow
+Select all occurrences: Command + Shift + L
+
+Search and Replace
+
+Find: Command + F
+Replace: Command + Option + F
+Find in Files: Command + Shift + F
+
+
+
+
+
+
+
+
+
+REC (https://www.youtube.com/watch?v=n-ECXna1hiY):
+audio MID setup
+
+Hot Corners (in setting)
+
+Minimize the Current Window:: Cmd (⌘) + M
+
+Full-Screen Mode: Ctrl + Cmd (⌘) + F
+
+Hide the Current App: Cmd (⌘) + H
+
+Mission Control (View All Open Windows): Ctrl(^) + Up / F3 / wipe up with three fingers on the trackpad 
+
+
+viewing photos in a folder: select > cmd + o  (cmd + click on name of photo) / select > space / opt + cmd + i
+
+screenshot:
+shift + comm + (3, 4, 5)
+
+parent folder :
+Command (⌘) + Up Arrow (↑)
+
+copy:
+palin txt: ctl + shift + 1
+group: shift
+menu: shift + cmd + c
+
+next and previous sheet shortcut excel in mac
+Option + Left Arrow
+
+vs code: Command Palette via ⇧⌘P
+
+Cycle Through Windows of the Current App: Cmd (⌘) + Tilde (~)
