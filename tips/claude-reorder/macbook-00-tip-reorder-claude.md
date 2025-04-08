@@ -2,6 +2,7 @@
 
 ## Table of Contents
 
+0. [most important tips](#important-tips)
 1. [System & Window Management](#system--window-management)
 2. [Finder & File Navigation](#finder--file-navigation)
 3. [Text Editing & Navigation](#text-editing--navigation)
@@ -149,7 +150,7 @@
 
 
 
-# most important tips: 
+# important tips
 
 
 - **Full-Screen Mode**: `fn + F`
