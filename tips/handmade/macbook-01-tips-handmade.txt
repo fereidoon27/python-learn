@@ -142,3 +142,7 @@ Option + Left Arrow
 vs code: Command Palette via ⇧⌘P
 
 Cycle Through Windows of the Current App: Cmd (⌘) + Tilde (~)
+
+
+
+

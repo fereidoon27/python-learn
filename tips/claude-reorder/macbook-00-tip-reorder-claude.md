@@ -145,3 +145,101 @@
 - `⇧` = Shift
 - `Fn` = Function
 - `←` `→` `↑` `↓` = Arrow keys
+
+
+
+
+# most important tips: 
+
+
+- **Full-Screen Mode**: `fn + F`
+- **Force Quit Applications Menu**: `⌘ + ⌥ + Esc`
+- **Switch Between Desktops (Spaces)**: `^ + ← / →`
+
+- **Navigate to Parent Folder**: `⌘ + ↑`
+- **Navigate into Selected Folder**: `⌘ + ↓`
+- **Move to Top of Document**: `⌘ + ↑`
+- **Move to Bottom of Document**: `⌘ + ↓`
+
+### File Operations
+- **Group Select**: Hold `Shift` while selecting items
+- **Copy Menu**: `⇧ + ⌘ + C`
+
+
+  - Select + `Space` (Quick Look) or
+  - `⌥ + ⌘ + I` (Get Info)
+
+## Text Editing & Navigation
+
+### Word Navigation
+- **Move to Next Word**: `⌥ + →`
+
+### Line Navigation
+- **Move to Start of Line**: `⌘ + ←`
+
+### Document Navigation
+- **Page Up**: `Fn + ↑`
+
+
+### Text Deletion
+- **Delete to Start of Line**: `⌘ + Delete`
+- **Delete Previous Word**: `⌥ + Delete`
+- **Forward Delete**: `Fn + Delete`
+
+### Editing Operations
+- **Undo**: `⌘ + Z`
+- **Redo**: `⌘ + ⇧ + Z`
+
+## Screenshots & Media
+
+### Screenshot Commands
+- **Capture Entire Screen**: `⇧ + ⌘ + 3`
+- **Capture Selected Area**: `⇧ + ⌘ + 4`
+- **Capture Window/Menu/Other**: `⇧ + ⌘ + 5`
+
+
+
+### Chrome/Safari Tab Navigation
+- **Next Tab**: 
+  - `⌘ + ⌥ + →`
+- **Previous Tab/Recently Active Tab**: 
+  - `⌘ + ⇧ + A` (opens search interface)
+  - `^ + ` (backtick)
+
+
+### Excel Navigation
+- **Next/Previous Sheet**: `⌥ + ←/→`
+
+## VS Code Shortcuts
+
+### File Navigation
+- **Open Tab Picker/Quick File Switcher**: `⌘ + P`
+- **Switch Between Tabs** (remembers order of last opened): `^ + Tab`
+
+### Code Editing
+- **Comment/Uncomment**: `⌘ + /`
+- **Indent**: `⌘ + ]`
+- **Outdent**: `⌘ + [`
+- **Move Line Up/Down**: `⌥ + ↑/↓`
+
+- **Delete Line**: `⌘ + ⇧ + K`
+
+### Multiple Cursor Operations
+- **Add Cursor**: `⌥ + Click`
+- **Add Multiple Cursors**: `⌥ + ⌘ + ↑/↓`
+- **Select All Occurrences**: `⌘ + ⇧ + L`
+
+### Search and Replace
+- **Find**: `⌘ + F`
+- **Replace**: `⌘ + ⌥ + F`
+- **Find in Files**: `⌘ + ⇧ + F`
+
+---
+
+### Key Symbol Legend
+- `⌘` = Command
+- `⌥` = Option/Alt
+- `^` = Control
+- `⇧` = Shift
+- `Fn` = Function
+- `←` `→` `↑` `↓` = Arrow keys
